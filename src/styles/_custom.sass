@@ -50,7 +50,7 @@
 .banner-principal .tarjeta
   background-color: transpa rent !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: #fff !important
+  color: #12263F !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero
   background-color: #13DE61 !important
 .cont_decorativo, .cont_decorativo *
@@ -122,15 +122,37 @@
 
 .banner-principal-decorativo-1
   animation: float1 2s ease-in-out infinite alternate !important
-  top: 60% !important
-  right: 75% !important
+  top: 25% !important
+  right: 76% !important
 .banner-principal-decorativo-2
+  animation: float3 5s ease-in infinite !important
+  top: 28% !important
+  right: 10% !important
+.banner-principal-decorativo-3
   animation: float2 5s ease-in infinite !important
-  top: 35% !important
-  right: 16% !important
+  top: 75% !important
+  right: 36% !important
+
+.cont_sintesis
+  position: relative
+.cont_sintesis:before
+  content: ''
+  position: absolute
+  width: 113%
+  height: 50%
+  top: 5%
+  bottom: 25%
+  left: -7%
+  background-image: url(../assets/curso/sintesis1.png)
+  background-size: cover
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #12263F
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6 
+  color: #12263F !important
 
 @media screen and (max-width: 992px)
-  .banner-principal .tarjeta, .cont_intro:before
+  .banner-principal .tarjeta, .cont_intro:before,.cont_sintesis:before
     background-size: cover !important
   .cont_decorativo:before
     height: 100%
