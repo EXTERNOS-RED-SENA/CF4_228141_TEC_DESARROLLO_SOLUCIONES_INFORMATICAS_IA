@@ -25,13 +25,13 @@
               figure
                 img(src="@/assets/curso/sintesis4.png")
             .col-lg
-              .h-100.p-4.d-flex.align-content-center.flex-wrap(style="background-color:#E6F0FC;border-radius:11px;border:1px #1169E3 solid;")
+              .h-100.p-4.d-flex.align-content-center.flex-wrap(style="background-color:#fff;border-radius:11px;border:3px #1169E3 solid;")
                 p.mb-0 El diagrama funciona como una hoja de ruta visual para comprender la estructura y el alcance del componente, permitiendo al estudiante visualizar rápidamente la progresión del aprendizaje y las conexiones entre los diferentes temas. Los elementos transversales (desarrollo colaborativo, buenas prácticas y herramientas modernas) se entrelazan con todas las áreas, enfatizando su importancia en todo el proceso de desarrollo. Se sugiere utilizarlo como referencia para organizar el estudio y entender cómo se integran los diversos aspectos en el desarrollo de #[em software] moderno, garantizando la creación de aplicaciones mantenibles y escalables en entornos profesionales.
 
       .row.justify-content-center.mt-5
         .col-lg-10.mb-5.p-relative
           figure(data-aos="fade-up" data-aos-duration="850")
-            img(src="@/assets/curso/sintesis.svg", alt='se denomina «Síntesis temática del componente», es un mapa mental con el tema central “Desarrollo de software: programación, arquitectura y herramientas", del cual se desprenden cuatro ramas principales —fundamentos lenguajes, arquitectura software, control versiones y entornos desarrollo— cada una detallada con sus subtemas específicos.')
+            img(src="@/assets/curso/sintesis.svg", alt='Se denomina «Síntesis temática del componente», es un mapa mental con el tema central “Desarrollo de software: programación, arquitectura y herramientas", del cual se desprenden cuatro ramas principales —fundamentos lenguajes, arquitectura software, control versiones y entornos desarrollo— cada una detallada con sus subtemas específicos.')
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
