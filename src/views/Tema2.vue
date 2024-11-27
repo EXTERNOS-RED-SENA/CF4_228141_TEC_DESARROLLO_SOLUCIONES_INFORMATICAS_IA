@@ -142,7 +142,7 @@
       p(data-aos="fade-up") Un ejemplo práctico de aplicación del Principio de Responsabilidad Única sería separar la lógica de negocio de la lógica de acceso a datos:
 
       .row.mt-4
-        .col-lg.mb-4.mb-lg-0.col-11.m-auto.col-md-7(data-aos="fade-right")
+        .col-lg.mb-4.mb-lg-0.m-auto.col-md-7(data-aos="fade-right")
           figure  
             img(src="@/assets/curso/tema2/14.svg")
         .col-lg(data-aos="fade-left")
