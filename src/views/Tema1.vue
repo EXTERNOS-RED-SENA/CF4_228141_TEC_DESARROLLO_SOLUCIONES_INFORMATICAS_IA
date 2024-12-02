@@ -33,10 +33,12 @@
         figure
           img(src="@/assets/curso/tema1/3.png")
     
+    p.mt-4(data-aos="fade-right") Los lenguajes de programación se pueden clasificar según diferentes criterios, siendo uno de los más comunes el nivel de abstracción que ofrecen. A continuación, se presenta una tabla comparativa de los principales tipos de lenguajes según su nivel de abstracción:
+    
     .col-xl-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido(data-aos="fade-down")
         h5 Tabla 1.
-        span Proceso para la lubricación de partes móviles
+        span Clasificación de lenguajes de programación
       .tabla-a.color-acento-contenido(data-aos="fade-up")
         table
           caption.mt-3.fw-normal #[strong Fuente:] OIT, 2024.
@@ -169,7 +171,7 @@
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema1/14.svg")
-        p.mt-4.mb-0 El concepto de alcance (scope) es fundamental en el trabajo con funciones. Las variables pueden tener alcance global o local, y entender estas diferencias es importante para escribir código mantenible y evitar efectos secundarios no deseados. Las buenas prácticas generalmente favorecen el uso de variables locales y la minimización del alcance global.
+        p.mt-4.mb-0 El concepto de alcance (#[em scope]) es fundamental en el trabajo con funciones. Las variables pueden tener alcance global o local, y entender estas diferencias es importante para escribir código mantenible y evitar efectos secundarios no deseados. Las buenas prácticas generalmente favorecen el uso de variables locales y la minimización del alcance global.
     
     .row.mt-4
       .col-lg(data-aos="fade-right")
