@@ -31,7 +31,7 @@
       .col-xl-11.ms-auto
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Figura 1.
-          span Ejemplo de pseudocódigo y diagrama de flujo
+          span Componentes clave de la arquitectura de #[em software]
         .row
           .col-lg-6.mb-4.mb-lg-0(data-aos="zoom-in")
             figure
@@ -71,8 +71,33 @@
               figure
                 img(src="@/assets/curso/tema2/5.svg")
           .col-lg.m-auto.col-11.col-md-7(data-aos="fade-up")
-            figure
-              img(src="@/assets/curso/tema2/6.svg")
+            .tarjeta.overflow-hidden(style="background-color: #110628 ")
+              .p-3.mb-5(style="background-color: #3A1D71")
+                img(src='@/assets/curso/iconos.svg', alt='' style='width: 80px;')
+              pre.p-5.text-white.py-2.mb-4
+                code # Ejemplo de patrón Fachada
+                  |class SubsistemaA:
+                  | def operacion_a(self):
+                  |   return "Operación A"
+
+                  |class SubsistemaB:
+                  |   def operacion_b(self):
+                  |       return "Operación B"
+
+                  |class Fachada:
+                  |   def __init__(self):
+                  |       self.subsistema_a = SubsistemaA()
+                  |       self.subsistema_b = SubsistemaB()
+
+                  |   def operacion_simple(self):
+                  |       resultado = []
+                  |       resultado.append(self.subsistema_a.operacion_a())
+                  |       resultado.append(self.subsistema_b.operacion_b())
+                  |       return " + ".join(resultado)
+
+
+            //- figure
+            //-   img(src="@/assets/curso/tema2/6.svg")
 
     Separador
 

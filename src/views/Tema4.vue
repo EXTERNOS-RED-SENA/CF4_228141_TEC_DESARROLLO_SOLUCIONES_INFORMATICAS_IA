@@ -73,8 +73,26 @@
         .p-4.h-100(style="background-color:#E6F0FC;border-radius:9px;")
           p Las pruebas, por otro lado, ayudan a prevenir errores antes de que ocurran. Un conjunto básico de pruebas debe incluir:
           .col-md-9.col-lg-12.col-12.m-auto
-            figure
-              img(src="@/assets/curso/tema4/7.svg")
+            .tarjeta.overflow-hidden(style="background-color: #110628 ")
+              .p-3.mb-5(style="background-color: #3A1D71")
+                img(src='@/assets/curso/iconos.svg', alt='' style='width: 80px;')
+              pre.p-5.text-white.py-2.mb-4
+                code # Ejemplo de pruebas unitarias básicas
+                  |import unittest
+
+                  |class CalculadoraTest(unittest.TestCase):
+                  |    def setUp(self):
+                  |        self.calc = Calculadora()
+
+                  |    def test_suma(self):
+                  |        self.assertEqual(self.calc.suma(2, 3), 5)
+                  |        self.assertEqual(self.calc.suma(-1, 1), 0)
+
+                  |    def test_division(self):
+                  |        with self.assertRaises(ValueError):
+                  |            self.calc.division(5, 0)
+            //- figure
+            //-   img(src="@/assets/curso/tema4/7.svg")
   
     Separador
 
@@ -99,7 +117,7 @@
                   span Mantener un registro de las versiones utilizadas.
                 li.d-flex
                   i.fas.fa-check-circle(style="color:#1169E3;")
-                  span Resolver conflictos entre dependencia.
+                  span Resolver conflictos entre dependencias.
                 li.d-flex.mb-0
                   i.fas.fa-check-circle(style="color:#1169E3;")
                   span Compartir configuraciones entre equipos.
@@ -113,7 +131,7 @@
     .titulo-segundo(data-aos="flip-up")
       h2#t_4_4 4.4 #[em Deployment] y entornos de producción
     
-    p(data-aos="fade-right") La gestión eficiente de dependencias es determinante para mantener proyectos de #[em software] saludables y actualizados. Las herramientas de gestión de paquetes como npm, pip o Maven nos permiten:
+    p(data-aos="fade-right") La gestión eficiente de dependencias..”  por el siguiente texto “El despliegue de aplicaciones requiere una comprensión clara de los diferentes entornos y sus requisitos específicos. Los entornos típicos incluyen:
 
     .col-xl-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido(data-aos="fade-down")

@@ -71,7 +71,7 @@
             tr(style="background-color:#FFF;")
               td(style="border:0;border-right:1px #AFAFAF solid;") Alto nivel
               td(style="border:0;border-right:1px #AFAFAF solid;") Lenguajes modernos
-              td(style="border:0;border-right:1px #AFAFAF solid;") Mayor abstracción, más cercanos al lenguaje natural
+              td(style="border:0;border-right:1px #AFAFAF solid;") Mayor abstracción, más cercana al lenguaje natural
               td(style="border:0;border-right:1px #AFAFAF solid;") Python, JavaScript
               td(style="border:0;") Desarrollo #[em web], aplicaciones empresariales
 

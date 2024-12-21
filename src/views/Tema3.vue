@@ -184,8 +184,33 @@
           figure
             img(src="@/assets/curso/tema3/11.png")
       .col-lg-auto.col-md-7.m-auto(data-aos="fade-left")
-        figure
-          img(src="@/assets/curso/tema3/12.svg")
+        .tarjeta.overflow-hidden(style="background-color: #110628 ")
+          .p-3.mb-5(style="background-color: #3A1D71")
+            img(src='@/assets/curso/iconos.svg', alt='' style='width: 80px;')
+          pre.p-5.text-white.py-2.mb-4
+            code # Ejemplo de pipeline CI básico
+              |pipeline:
+              |  stages:
+              |    - build
+              |    - test
+              |    - deploy
+
+              |  build:
+              |    script:
+              |      - npm install
+              |      - npm run build
+
+              |  test:
+              |    script:
+              |      - npm run test
+
+              |  deploy:
+              |    script:
+              |      - if [ "$BRANCH" = "main" ]; then
+              |        npm run deploy
+              |        fi
+        //- figure
+        //-   img(src="@/assets/curso/tema3/12.svg")
     
     p.mt-4(data-aos="fade-up") El desarrollo colaborativo exitoso requiere una combinación de herramientas técnicas y prácticas organizacionales efectivas. La adopción de Git y las prácticas modernas de desarrollo colaborativo no solo mejora la calidad del código, sino que también facilita la escalabilidad de los equipos y proyectos.
 

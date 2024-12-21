@@ -298,7 +298,7 @@ export default {
     {
       termino: '<em>Commit</em>',
       significado:
-        'Instantánea del código en un momento específico que registra cambios en el repositorio de control de versiones',
+        'Instantánea del código en un momento específico que registra cambios en el repositorio de control de versiones.',
     },
     {
       termino: '<em>Debugging</em>',
@@ -333,7 +333,7 @@ export default {
     {
       termino: '<em>Pipeline</em>',
       significado:
-        'Secuencia automatizada de procesos para llevar el código desde el desarrollo hasta la producción',
+        'Secuencia automatizada de procesos para llevar el código desde el desarrollo hasta la producción.',
     },
     {
       termino: 'Pull Request',
@@ -343,7 +343,7 @@ export default {
     {
       termino: 'REST',
       significado:
-        'Estilo de arquitectura de <em>software</em> para sistemas distribuidos, especialmente usado en APIs web',
+        'Estilo de arquitectura de <em>software</em> para sistemas distribuidos, especialmente usado en APIs web.',
     },
     {
       termino: 'Staging Area',
@@ -353,7 +353,7 @@ export default {
     {
       termino: '<em>Testing</em>',
       significado:
-        'Proceso de evaluar un sistema o componente para verificar que cumple con los requisitos especificados',
+        'Proceso de evaluar un sistema o componente para verificar que cumple con los requisitos especificados.',
     },
     {
       termino: 'Versionamiento',
