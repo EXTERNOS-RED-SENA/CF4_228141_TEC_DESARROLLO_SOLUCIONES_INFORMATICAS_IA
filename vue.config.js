@@ -1,14 +1,17 @@
-const titulo = require('./src/config/titulo')
+const titulo =
+  'Desarrollo de software: programación, arquitectura y herramientas'
+
 module.exports = {
   publicPath: '',
   css: {
     loaderOptions: {
       sass: {
-        prependData: `@import "@/styles/_variables.sass"`,
+        prependData: `@import "@/css/_variables.sass"`,
       },
     },
   },
   chainWebpack: config => {
+    // Mantener la configuración existente del título
     config.plugin('html').tap(args => {
       args[0].title = titulo
       return args
